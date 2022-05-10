@@ -1,3 +1,5 @@
 # Variables, Expressions & Statements
 
-hours = float(input("Enter hours? "))
+hrs = float(input("Enter hours? "))
+usf = int(hrs) + 1
+print('Enter hours', usf)
