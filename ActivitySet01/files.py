@@ -10,4 +10,9 @@ for line in fh:
         total=total+num
 average=total/count
 print("Average spam confidence:",average)
-        
+
+
+
+'''/python01-NIKHILAV-123/ActivitySet01$ python files.py
+Enter file name: files.txt
+Average spam confidence: 0.7507185185185187'''
