@@ -35,3 +35,21 @@ t=triangle()
 t.sides()
 p=pentagon()
 p.sides()
+
+
+###INHERITANCE
+class User:
+  def __init__(self,name):
+    self.name=name
+  def printname(self):
+    print("Name = "+ self.name)
+class programmer(User):
+  def __init__(self,name):
+    self.name=name
+  def display(self):
+    print("Python Program")
+u1=User("shiva")
+u1.printname()
+u2=programmer("manpreeth")
+u2.printname()
+u2.display()
