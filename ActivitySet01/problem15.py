@@ -20,3 +20,18 @@ class Computer:
     self.__maxprice=price
 c1=Computer()
 c1.sell( )
+
+#ABSTRACTION
+class Polygon:
+  def sides(self):
+    pass
+class triangle(Polygon):
+  def sides(self): 
+    print("triangle has 3 sides")
+class pentagon(Polygon):
+  def sides(self):
+    print("pentagon has 5 sides")
+t=triangle()
+t.sides()
+p=pentagon()
+p.sides()
