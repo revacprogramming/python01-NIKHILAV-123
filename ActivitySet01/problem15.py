@@ -39,6 +39,7 @@ p.sides()
 
 ###INHERITANCE
 class User:
+  '''Program to demonstrate single inheritence'''
   def __init__(self,name):
     self.name=name
   def printname(self):
